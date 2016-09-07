@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rl_empty_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.schibsted.spain.parallaxlayerlayout.ParallaxLayerLayout
+        android:id="@+id/parallax"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        app:parallaxScaleVertical="0.25">
+
+        <ImageView
+            android:id="@+id/layer_nubes"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/ovni_nubes" />
+
+        <ImageView
+            android:id="@+id/layer_viento"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/ovni_viento" />
+
+
+        <ImageView
+            android:id="@+id/layer_estrellas_x"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/ovni_estrellas_x" />
+
+        <ImageView
+            android:id="@+id/layer_estrellas_o"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/ovni_estrellas_o" />
+
+        <ImageView
+            android:id="@+id/layer_nave"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/ovni_nave" />
+
+        <ImageView
+            android:id="@+id/layer_icon"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/ovni_icon" />
+
+
+    </com.schibsted.spain.parallaxlayerlayout.ParallaxLayerLayout>
+
+    <TextView
+        android:id="@+id/tv_empty_tip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/parallax"
+        android:layout_centerHorizontal="true"
+        android:text="不好出错误了┭┮﹏┭┮" />
+</RelativeLayout>
