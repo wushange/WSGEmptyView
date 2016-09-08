@@ -12,6 +12,14 @@
 也可以开发者封装在自己的基类里面 方便开发
 
 使用方法简单
+
+
+gradlew引用
+
+```
+compile 'com.wushange:emptyView:0.01'
+```
+
 两个类
 EmptyViewConfig ：设置提示文字，添加点击监听事件设置等...
 EmptyView :主要的fragment 负责显示 和重力感应监听的 
